@@ -1,3 +1,1 @@
-const twoExp = 'I have added a script file via the src attribute!';
-
-console.log(twoExp);
+console.log('I have added a script file via the src attribute!');
