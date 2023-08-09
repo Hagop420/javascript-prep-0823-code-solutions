@@ -5,10 +5,16 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What data type is returned by an arithmetic operation?
+<!-- number -->
 - What is string concatenation?
+<!-- it's combining two strings or any other type together -->
 - What purpose(s) does the `+` plus operator serve in JavaScript?
+<!-- the + is used to add or to concatanate types and numbers together -->
 - What data type is returned by comparing two values (`<`, `>`, `===`, etc)?
+<!-- boolean -->
 - What does the `+=` "plus-equals" operator do?
+
+<!-- += is appending one thing onto the existing type like concatanation -->
 
 ## Notes
 
