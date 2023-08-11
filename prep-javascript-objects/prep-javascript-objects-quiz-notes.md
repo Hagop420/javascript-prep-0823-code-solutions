@@ -14,7 +14,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - Describe the syntax (structure) of object-literals in JavaScript.
 <!-- object litral can be cultivated using curly brackets as the following
 
-const dog={
+const dog = {
 name:'mochi'
 } -->
 
