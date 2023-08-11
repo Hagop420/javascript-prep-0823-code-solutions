@@ -1,58 +1,58 @@
 // problem 1
-const addTwoNumbers = (num1 = 2, num2 = 2) => {
+const addTwoNumbers = (num1 = 2, num2) => {
   return num1 + num2;
 };
 
-console.log(addTwoNumbers());
+console.log(addTwoNumbers(2));
 
 // problem 2
-const convertHoursToMinutes = (hours = 3) => hours * 60;
+const convertHoursToMinutes = (hours) => hours * 60;
 
-console.log(convertHoursToMinutes());
+console.log(convertHoursToMinutes(4));
 
 // problem 3
-const getGreeting = (name = 'Brett') => `Hello ${name}`;
+const getGreeting = (name) => `Hello ${name}`;
 
-console.log(getGreeting());
+console.log(getGreeting('Brett'));
 
 // problem 4
-const addAndMultiplyBy5 = (num1 = 10, num2 = 5) => {
+const addAndMultiplyBy5 = (num1 = 10, num2) => {
   return num1 * num2;
 };
 
-console.log(addAndMultiplyBy5());
+console.log(addAndMultiplyBy5(5));
 
 // problem 5
-const multiplyAndDivideBy5 = (num1 = 2, num2 = 2) => num1 / num2;
+const multiplyAndDivideBy5 = (num1 = 2, num2) => num1 / num2;
 
-console.log(multiplyAndDivideBy5());
+console.log(multiplyAndDivideBy5(2));
 
 // problem 6
-const subtractTwoNumbers = (num1 = 23, num2 = 22) => {
+const subtractTwoNumbers = (num1 = 23, num2) => {
   return num1 - num2;
 };
 
-console.log(subtractTwoNumbers());
+console.log(subtractTwoNumbers(12));
 
 // problem 7
-const getCircleCircumference = (radius = 5222) => {
+const getCircleCircumference = (radius) => {
   return 2 * Math.PI * radius;
 };
 
-console.log(getCircleCircumference());
+console.log(getCircleCircumference(5222));
 
 // problem 8
 
-const getFullName = (firstName = 'Jack', lastName = 'Almadjian') => {
+const getFullName = (firstName, lastName) => {
   return `${firstName} ${lastName}`;
 };
 
-console.log(getFullName());
+console.log(getFullName('Jack', 'Almadjian'));
 
 // problem 9(end)
 
-const cube = (number = 2) => {
+const cube = (number) => {
   return Math.pow(number, 3);
 };
 
-console.log(cube());
+console.log(cube(2));
