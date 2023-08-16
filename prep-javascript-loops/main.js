@@ -13,10 +13,10 @@ function whileLoop1() {
 
 const whileLoop2 = () => {
   const res = [];
-  let i = 2;
+  let i = 0;
   while (i <= 18) {
     res.push(i);
-    i++;
+    i += 2;
   }
   return res;
 };
@@ -38,21 +38,31 @@ console.log('forLoop1', forLoop1());
 const forLoop2 = () => {
   const res = [];
   for (let i = 100; i >= 0; i -= 1) {
-    res.push(i);
+    res.push(`Time till explosion: ${i}`);
   }
   return res;
 };
 
 console.log('forLoop2', forLoop2());
 
-const forInLoop2 = () => {
-  const object = {
-    name: 'Ada LoveLace',
-    age: 'classic',
-    hobby: 'computation',
-    invention: 'analytical engine',
-  };
+const object = {
+  name: 'Ada LoveLace',
+  age: 'classic',
+  hobby: 'computation',
+  invention: 'analytical engine',
+};
+// forInLoops
 
+const forInLoop1 = () => {
+  const res = [];
+  for (const obj in object) {
+    res.push(obj);
+  }
+  return res;
+};
+
+console.log(forInLoop1());
+const forInLoop2 = () => {
   const res = [];
   for (const obj in object) {
     res.push(object[obj]);
